@@ -1,83 +1,123 @@
 @charset "utf-8";
 /* CSS Document */
 ul.browsers {
-	margin: 0; 
-	padding: 0; 
+	margin:0; 
+	padding:0; 
 }
 	ul.browsers li {
-		display: inline; 
-		margin: 0; 
-		padding: 0; 
+		display:inline; 
+		margin-right:146px; 
 	}
 	ul.browsers li.ie {
-		display: inline; 
-		margin: 0; 
-		padding: 0; 
+		display:inline;
+		float:right; 
+		margin-left:-135px; 
 	}
 h3.chrome {
-	position: relative; 
-	display: inline-block;
+	position:relative; 
+	display:inline-block;
+}
+h3.chrome span.chrome {
+	padding-top:40px;
+	color:#f9d411;	
+	padding-left: 20px;
+}
+h3.chrome span.chrome span.ch {
+	position:relative;
+	color:#22a12a;	
+}
+h3.chrome span.chrome span.ro {
+	position:relative;
+	color:#c90000;	
 }
 h3.chrome span {
-	position: absolute;
-	left: 0; 
-	width: 126px;
-	height: 132px;
-	background: url(../images/chrome.png) no-repeat;
+	position:absolute;
+	left:0; 
+	width:126px;
+	height:132px;
+	background:url(../images/chrome.png) no-repeat;
 }
 h3.firefox {
-	position: relative; 
-	display: inline-block;
+	position:relative; 
+	display:inline-block;
+}
+h3.firefox span.firefox {
+	padding-top:40px;
+	color:#f2a414;	
+	padding-left: 20px;
 }
 h3.firefox span {
-	position: absolute;
-	left: 0; 
-	width: 120px;
-	height: 132px;
-	background: url(../images/firefox.png) no-repeat;
+	position:absolute;
+	left:0; 
+	width:126px;
+	height:132px;
+	background:url(../images/firefox.png) no-repeat;
 }
 h3.opera {
-	position: relative; 
-	display: inline-block;
+	position:relative; 
+	display:inline-block;
+}
+h3.opera span.opera {
+	padding-top:40px;
+	color:#c10e0e;	
+	padding-left: 20px;
 }
 h3.opera span {
-	position: absolute;
-	left: 0; 
-	width: 108px;
-	height: 132px;
-	background: url(../images/opera.png) no-repeat;
+	position:absolute;
+	left:0; 
+	width:126px;
+	height:132px;
+	background:url(../images/opera.png) no-repeat;
 }
 h3.safari {
-	position: relative; 
-	display: inline-block;
+	position:relative; 
+	display:inline-block;
+}
+h3.safari span.safari {
+	padding-top:40px;
+	color:#646464;	
+	padding-left: 20px;
 }
 h3.safari span {
-	position: absolute;
-	left: 0; 
-	width: 112px;
-	height: 132px;
-	background: url(../images/safari.png) no-repeat;
+	position:absolute;
+	left:0; 
+	width:126px;
+	height:132px;
+	background:url(../images/safari.png) no-repeat;
 }
 h3.yandex {
-	position: relative; 
-	display: inline-block;
+	position:relative; 
+	display:inline-block;
+}
+h3.yandex span.yandex {
+	padding-top:40px;
+	padding-left: 20px;
+}
+h3.yandex span.yandex span.y {
+	position:relative;
+	color:#ff0000;
 }
 h3.yandex span {
-	position: absolute;
-	left: 0; 
-	width: 116px;
-	height: 132px;
-	background: url(../images/yandex.png) no-repeat;
+	position:absolute;
+	left:0; 
+	width:126px;
+	height:132px;
+	background:url(../images/yandex.png) no-repeat;
 }
 h3.ie {
-	position: relative; 
-	display: inline-block;
+	position:relative; 
+	display:inline-block;
+}
+h3.ie span.ie {
+	padding-top:25px;
+	color:#036da3;
+	
 }
 h3.ie span {
-	position: absolute;
-	left: 0; 
-	width: 125px;
-	height: 132px;
-	background: url(../images/ie.png) no-repeat;
+	position:absolute;
+	left:0; 
+	width:125px;
+	height:132px;
+	background:url(../images/ie.png) no-repeat;
 }
 

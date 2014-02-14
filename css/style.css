@@ -13,107 +13,86 @@ ul.browsers {
 		float:right; 
 		margin-left:-135px; 
 	}
-h3.chrome {
+h3 {
 	position:relative; 
 	display:inline-block;
 }
-h3.chrome span.chrome {
+h3 span.chrome {
 	padding-top:40px;
 	color:#f9d411;	
 	padding-left: 20px;
 }
-h3.chrome span.chrome span.ch {
+h3 span.chrome span.ch {
 	position:relative;
 	color:#22a12a;	
 }
-h3.chrome span.chrome span.ro {
+h3 span.chrome span.ro {
 	position:relative;
 	color:#c90000;	
 }
-h3.chrome span {
+h3 span {
 	position:absolute;
 	left:0; 
 	width:126px;
 	height:132px;
 	background:url(../images/chrome.png) no-repeat;
 }
-h3.firefox {
-	position:relative; 
-	display:inline-block;
-}
-h3.firefox span.firefox {
+h3 span.firefox {
 	padding-top:40px;
 	color:#f2a414;	
 	padding-left: 20px;
 }
-h3.firefox span {
+h3 span.firefox_img {
 	position:absolute;
 	left:0; 
 	width:126px;
 	height:132px;
 	background:url(../images/firefox.png) no-repeat;
 }
-h3.opera {
-	position:relative; 
-	display:inline-block;
-}
-h3.opera span.opera {
+h3 span.opera {
 	padding-top:40px;
 	color:#c10e0e;	
 	padding-left: 20px;
 }
-h3.opera span {
+h3 span.opera_img {
 	position:absolute;
 	left:0; 
 	width:126px;
 	height:132px;
 	background:url(../images/opera.png) no-repeat;
 }
-h3.safari {
-	position:relative; 
-	display:inline-block;
-}
-h3.safari span.safari {
+h3 span.safari {
 	padding-top:40px;
 	color:#646464;	
 	padding-left: 20px;
 }
-h3.safari span {
+h3 span.safari_img {
 	position:absolute;
 	left:0; 
 	width:126px;
 	height:132px;
 	background:url(../images/safari.png) no-repeat;
 }
-h3.yandex {
-	position:relative; 
-	display:inline-block;
-}
-h3.yandex span.yandex {
+h3 span.yandex {
 	padding-top:40px;
 	padding-left: 20px;
 }
-h3.yandex span.yandex span.y {
+h3 span.yandex span.y {
 	position:relative;
 	color:#ff0000;
 }
-h3.yandex span {
+h3 span.yandex_img {
 	position:absolute;
 	left:0; 
 	width:126px;
 	height:132px;
 	background:url(../images/yandex.png) no-repeat;
 }
-h3.ie {
-	position:relative; 
-	display:inline-block;
-}
-h3.ie span.ie {
+h3 span.ie {
 	padding-top:25px;
-	color:#036da3;
-	
+	color:#036da3;	
 }
-h3.ie span {
+h3 span.ie_img {
 	position:absolute;
 	left:0; 
 	width:125px;
